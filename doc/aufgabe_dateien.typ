@@ -1,0 +1,5 @@
+= Dateioperationen
+
+== Aufgabenstellung
+
+== Die Bestandsfortschreibung
