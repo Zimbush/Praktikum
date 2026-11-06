@@ -18,8 +18,8 @@ Zwei Brüche sollen gleich sein, wenn jeweils die beiden Zähler und Nenner glei
 Es gibt unterschiedliche Arten, wie Klassen in Python umgesetzt werden können. Empfehlungen:
 
 - Die Attribute können explizit als Objektattribute angegeben werden, wenn man Type Hints nutzt (PEP 526).
-- Die Bruchobjekte sollten sinnvollerweise unveränderlich sein. Beispielsweise erzeugt das Kürzen dann ein neues Bruchobjekt, dessen Zähler und Nenner teilerfremd sind. Das lässt sich einfach mit der Annotation @dataclass erreichen.
-- @dataclass hilft auch dabei, den üblichen Boilerplate-Code zu vermeiden.
+- Die Bruchobjekte sollten sinnvollerweise unveränderlich sein. Beispielsweise erzeugt das Kürzen dann ein neues Bruchobjekt, dessen Zähler und Nenner teilerfremd sind. Das lässt sich einfach mit der Annotation \@dataclass erreichen.
+- \@dataclass hilft auch dabei, den üblichen Boilerplate-Code zu vermeiden.
 - Für die beiden nachfolgenden Ausbaustufen ist die Erstellung einer Superklasse _Zahl_ hilfreich.
 
 == Ausbaustufe Kommazahl
